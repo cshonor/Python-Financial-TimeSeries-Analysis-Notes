@@ -8,7 +8,7 @@
 
 | 子目录 | 用途 |
 |--------|------|
-| `docs/` | 原书章节笔记（待按书本目录填充） |
+| `docs/` | 原书章节笔记（[`docs/README.md`](./docs/README.md)） |
 | `code/time_series_quant/` | **当前主力**：从金融大数据册迁出的时序量化专题 |
 | `dataset/` | 单标的 / 多频率样本序列 |
 | `exercise/` | 预测与回测练习题 |
@@ -25,4 +25,16 @@
 | `05_shift_and_signal_alignment.md` | shift 与防未来函数 |
 | `06_signal_generation_from_price.md` | 从价格生成信号 |
 
-前置建议：先完成 `../Python-Data-Analysis/docs/chapter11_time_series.md`（原书第 11 章）与 `../Python-Data-Analysis/code/numpy/`、`../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/`。
+## 章节笔记（`docs/`）
+
+| 章节 | 笔记 | 脚本 |
+|------|------|------|
+| 第 1 章 了解时间序列预测 | [docs/chapter01_time_series_forecasting_intro.md](./docs/chapter01_time_series_forecasting_intro.md) | [code/chapter01_forecast_workflow_demo.py](./code/chapter01_forecast_workflow_demo.py) |
+
+## 建议学习顺序
+
+1. 第 1 章：`docs/chapter01_*` + `code/chapter01_forecast_workflow_demo.py`  
+2. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
+3. 后续按原书章节在 `docs/` 中追加  
+
+**前置**：`../Python-Data-Analysis/docs/chapter11_time_series.md`、`../Python-Data-Analysis/code/numpy/`、`../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/`。
