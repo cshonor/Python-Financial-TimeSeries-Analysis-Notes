@@ -30,11 +30,15 @@
 | 章节 | 笔记 | 脚本 |
 |------|------|------|
 | 第 1 章 了解时间序列预测 | [docs/chapter01_time_series_forecasting_intro.md](./docs/chapter01_time_series_forecasting_intro.md) | [code/chapter01_forecast_workflow_demo.py](./code/chapter01_forecast_workflow_demo.py) |
+| 第 2 章 基线预测 | [docs/chapter02_baseline_forecasting.md](./docs/chapter02_baseline_forecasting.md) | [code/chapter02_baseline_forecast_demo.py](./code/chapter02_baseline_forecast_demo.py) |
+| 第 3 章 随机游走 | [docs/chapter03_random_walk.md](./docs/chapter03_random_walk.md) | [code/chapter03_random_walk_demo.py](./code/chapter03_random_walk_demo.py) |
 
 ## 建议学习顺序
 
 1. 第 1 章：`docs/chapter01_*` + `code/chapter01_forecast_workflow_demo.py`  
-2. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
-3. 后续按原书章节在 `docs/` 中追加  
+2. 第 2 章：`docs/chapter02_*` + `code/chapter02_baseline_forecast_demo.py`  
+3. 第 3 章：`docs/chapter03_*` + `code/chapter03_random_walk_demo.py`  
+4. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
+5. 后续按原书章节在 `docs/` 中追加  
 
 **前置**：`../Python-Data-Analysis/docs/chapter11_time_series.md`、`../Python-Data-Analysis/code/numpy/`、`../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/`。

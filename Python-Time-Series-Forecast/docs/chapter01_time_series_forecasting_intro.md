@@ -67,7 +67,7 @@
 
 ### 1.4 下一步（本章小结）
 
-- 后续路径：基线 → MA/AR → 趋势与季节（ARIMA、SARIMA、SARIMAX）→ 深度学习（CNN、LSTM）→ **Prophet** 等自动化库。
+- 后续路径：[第 2 章 基线预测](./chapter02_baseline_forecasting.md) → [第 3 章 随机游走](./chapter03_random_walk.md) → MA/AR → ARIMA/SARIMA/SARIMAX → 深度学习 → **Prophet**。
 - **四条戒律**：
   1. 时序 = 按时间排序的点。
   2. 可分解为趋势、季节、残差。
