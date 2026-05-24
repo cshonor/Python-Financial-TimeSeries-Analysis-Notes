@@ -5,6 +5,8 @@
 | 第 1 章 了解时间序列预测 | [chapter01_time_series_forecasting_intro.md](./chapter01_time_series_forecasting_intro.md) | [chapter01_forecast_workflow_demo.py](../code/chapter01_forecast_workflow_demo.py) |
 | 第 2 章 基线预测 | [chapter02_baseline_forecasting.md](./chapter02_baseline_forecasting.md) | [chapter02_baseline_forecast_demo.py](../code/chapter02_baseline_forecast_demo.py) |
 | 第 3 章 随机游走 | [chapter03_random_walk.md](./chapter03_random_walk.md) | [chapter03_random_walk_demo.py](../code/chapter03_random_walk_demo.py) |
+| 第 4 章 移动平均 MA | [chapter04_moving_average_process.md](./chapter04_moving_average_process.md) | [chapter04_ma_process_demo.py](../code/chapter04_ma_process_demo.py) |
+| 第 5 章 自回归 AR | [chapter05_autoregressive_process.md](./chapter05_autoregressive_process.md) | [chapter05_ar_process_demo.py](../code/chapter05_ar_process_demo.py) |
 
 **笔记结构**：章节总览 → 书本提炼 → 生命周期速查 → 演示 → 量化衔接 → 自检 → 留白。
 
