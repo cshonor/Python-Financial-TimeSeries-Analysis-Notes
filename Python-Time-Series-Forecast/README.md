@@ -47,6 +47,9 @@
 | 第 16 章 CNN | [docs/chapter16_cnn.md](./docs/chapter16_cnn.md) | [code/chapter16_cnn_demo.py](./code/chapter16_cnn_demo.py) |
 | 第 17 章 ARLSTM | [docs/chapter17_arlstm.md](./docs/chapter17_arlstm.md) | [code/chapter17_arlstm_demo.py](./code/chapter17_arlstm_demo.py) |
 | 第 18 章 DL 顶点项目 | [docs/chapter18_capstone_household_power.md](./docs/chapter18_capstone_household_power.md) | [code/chapter18_capstone_power_demo.py](./code/chapter18_capstone_power_demo.py) |
+| 第 19 章 Prophet | [docs/chapter19_prophet.md](./docs/chapter19_prophet.md) | [code/chapter19_prophet_demo.py](./code/chapter19_prophet_demo.py) |
+| 第 20 章 收官顶点 | [docs/chapter20_capstone_steak_price.md](./docs/chapter20_capstone_steak_price.md) | [code/chapter20_capstone_steak_demo.py](./code/chapter20_capstone_steak_demo.py) |
+| 第 21 章 全书总结 | [docs/chapter21_beyond_self_summary.md](./docs/chapter21_beyond_self_summary.md) | [code/chapter21_summary_guide_demo.py](./code/chapter21_summary_guide_demo.py) |
 
 ## 建议学习顺序
 
@@ -68,7 +71,9 @@
 16. 第 16 章：`docs/chapter16_*` + `code/chapter16_cnn_demo.py`  
 17. 第 17 章：`docs/chapter17_*` + `code/chapter17_arlstm_demo.py`  
 18. 第 18 章：`docs/chapter18_*` + `code/chapter18_capstone_power_demo.py`  
-19. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
-20. 第 19 章起：Prophet 等（`docs/` 持续追加）  
+19. 第 19 章：`docs/chapter19_*` + `code/chapter19_prophet_demo.py`  
+20. 第 20 章：`docs/chapter20_*` + `code/chapter20_capstone_steak_demo.py`  
+21. 第 21 章：`docs/chapter21_*` + `code/chapter21_summary_guide_demo.py`（全书总结）  
+22. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
 
 **前置**：`../Python-Data-Analysis/docs/chapter11_time_series.md`、`../Python-Data-Analysis/code/numpy/`、`../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/`。

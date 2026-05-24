@@ -5,7 +5,7 @@
 
 **前置**：第 12～17 章（预处理、`DataWindow`、基线～ARLSTM）
 
-**下一章**：第 19 章起 **Prophet**（工业级自动预测）
+**下一章**：[第 19 章 Prophet](./chapter19_prophet.md)（自动化预测）
 
 **演示脚本**：[`../code/chapter18_capstone_power_demo.py`](../code/chapter18_capstone_power_demo.py)
 
