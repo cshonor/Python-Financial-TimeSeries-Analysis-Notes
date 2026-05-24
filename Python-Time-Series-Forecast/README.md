@@ -46,6 +46,7 @@
 | 第 15 章 LSTM | [docs/chapter15_lstm.md](./docs/chapter15_lstm.md) | [code/chapter15_lstm_demo.py](./code/chapter15_lstm_demo.py) |
 | 第 16 章 CNN | [docs/chapter16_cnn.md](./docs/chapter16_cnn.md) | [code/chapter16_cnn_demo.py](./code/chapter16_cnn_demo.py) |
 | 第 17 章 ARLSTM | [docs/chapter17_arlstm.md](./docs/chapter17_arlstm.md) | [code/chapter17_arlstm_demo.py](./code/chapter17_arlstm_demo.py) |
+| 第 18 章 DL 顶点项目 | [docs/chapter18_capstone_household_power.md](./docs/chapter18_capstone_household_power.md) | [code/chapter18_capstone_power_demo.py](./code/chapter18_capstone_power_demo.py) |
 
 ## 建议学习顺序
 
@@ -66,7 +67,8 @@
 15. 第 15 章：`docs/chapter15_*` + `code/chapter15_lstm_demo.py`  
 16. 第 16 章：`docs/chapter16_*` + `code/chapter16_cnn_demo.py`  
 17. 第 17 章：`docs/chapter17_*` + `code/chapter17_arlstm_demo.py`  
-18. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
-19. 第 18 章起：Prophet / 顶点项目（`docs/` 持续追加）  
+18. 第 18 章：`docs/chapter18_*` + `code/chapter18_capstone_power_demo.py`  
+19. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
+20. 第 19 章起：Prophet 等（`docs/` 持续追加）  
 
 **前置**：`../Python-Data-Analysis/docs/chapter11_time_series.md`、`../Python-Data-Analysis/code/numpy/`、`../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/`。

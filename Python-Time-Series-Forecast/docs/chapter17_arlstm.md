@@ -5,7 +5,7 @@
 
 **前置**：[第 15 章 LSTM](./chapter15_lstm.md)、[第 16 章 CNN](./chapter16_cnn.md)
 
-**下一章**：Prophet 与顶点项目（牛排价格等）
+**下一章**：[第 18 章 DL 顶点项目](./chapter18_capstone_household_power.md)（家庭用电量）
 
 **演示脚本**：[`../code/chapter17_arlstm_demo.py`](../code/chapter17_arlstm_demo.py)
 

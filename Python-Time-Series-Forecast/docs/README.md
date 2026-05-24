@@ -19,6 +19,7 @@
 | 第 15 章 LSTM | [chapter15_lstm.md](./chapter15_lstm.md) | [chapter15_lstm_demo.py](../code/chapter15_lstm_demo.py) |
 | 第 16 章 CNN | [chapter16_cnn.md](./chapter16_cnn.md) | [chapter16_cnn_demo.py](../code/chapter16_cnn_demo.py) |
 | 第 17 章 ARLSTM | [chapter17_arlstm.md](./chapter17_arlstm.md) | [chapter17_arlstm_demo.py](../code/chapter17_arlstm_demo.py) |
+| 第 18 章 DL 顶点项目 | [chapter18_capstone_household_power.md](./chapter18_capstone_household_power.md) | [chapter18_capstone_power_demo.py](../code/chapter18_capstone_power_demo.py) |
 
 **笔记结构**：章节总览 → 书本提炼 → 生命周期速查 → 演示 → 量化衔接 → 自检 → 留白。
 
