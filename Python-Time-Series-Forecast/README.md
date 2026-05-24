@@ -34,6 +34,13 @@
 | 第 3 章 随机游走 | [docs/chapter03_random_walk.md](./docs/chapter03_random_walk.md) | [code/chapter03_random_walk_demo.py](./code/chapter03_random_walk_demo.py) |
 | 第 4 章 移动平均 MA | [docs/chapter04_moving_average_process.md](./docs/chapter04_moving_average_process.md) | [code/chapter04_ma_process_demo.py](./code/chapter04_ma_process_demo.py) |
 | 第 5 章 自回归 AR | [docs/chapter05_autoregressive_process.md](./docs/chapter05_autoregressive_process.md) | [code/chapter05_ar_process_demo.py](./code/chapter05_ar_process_demo.py) |
+| 第 6 章 ARMA 建模 | [docs/chapter06_arma_modeling.md](./docs/chapter06_arma_modeling.md) | [code/chapter06_arma_modeling_demo.py](./code/chapter06_arma_modeling_demo.py) |
+| 第 7 章 ARIMA | [docs/chapter07_arima_nonstationary.md](./docs/chapter07_arima_nonstationary.md) | [code/chapter07_arima_demo.py](./code/chapter07_arima_demo.py) |
+| 第 8 章 SARIMA 季节性 | [docs/chapter08_sarima_seasonality.md](./docs/chapter08_sarima_seasonality.md) | [code/chapter08_sarima_demo.py](./code/chapter08_sarima_demo.py) |
+| 第 9 章 SARIMAX 外生变量 | [docs/chapter09_sarimax_exogenous.md](./docs/chapter09_sarimax_exogenous.md) | [code/chapter09_sarimax_demo.py](./code/chapter09_sarimax_demo.py) |
+| 第 10 章 VAR 多变量 | [docs/chapter10_var_multivariate.md](./docs/chapter10_var_multivariate.md) | [code/chapter10_var_demo.py](./code/chapter10_var_demo.py) |
+| 第 11 章 顶点项目 | [docs/chapter11_capstone_aus_drugs.md](./docs/chapter11_capstone_aus_drugs.md) | [code/chapter11_capstone_demo.py](./code/chapter11_capstone_demo.py) |
+| 第 12 章 深度学习入门 | [docs/chapter12_deep_learning_intro.md](./docs/chapter12_deep_learning_intro.md) | [code/chapter12_dl_preprocess_demo.py](./code/chapter12_dl_preprocess_demo.py) |
 
 ## 建议学习顺序
 
@@ -42,7 +49,14 @@
 3. 第 3 章：`docs/chapter03_*` + `code/chapter03_random_walk_demo.py`  
 4. 第 4 章：`docs/chapter04_*` + `code/chapter04_ma_process_demo.py`  
 5. 第 5 章：`docs/chapter05_*` + `code/chapter05_ar_process_demo.py`  
-6. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
-7. 后续按原书章节在 `docs/` 中追加  
+6. 第 6 章：`docs/chapter06_*` + `code/chapter06_arma_modeling_demo.py`  
+7. 第 7 章：`docs/chapter07_*` + `code/chapter07_arima_demo.py`  
+8. 第 8 章：`docs/chapter08_*` + `code/chapter08_sarima_demo.py`  
+9. 第 9 章：`docs/chapter09_*` + `code/chapter09_sarimax_demo.py`  
+10. 第 10 章：`docs/chapter10_*` + `code/chapter10_var_demo.py`  
+11. 第 11 章：`docs/chapter11_*` + `code/chapter11_capstone_demo.py`  
+12. 第 12 章：`docs/chapter12_*` + `code/chapter12_dl_preprocess_demo.py`  
+13. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
+14. 第 13 章起：DL 基准 / DNN / LSTM / CNN（`docs/` 持续追加）  
 
 **前置**：`../Python-Data-Analysis/docs/chapter11_time_series.md`、`../Python-Data-Analysis/code/numpy/`、`../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/`。

@@ -5,7 +5,7 @@
 
 **前置**：第 1～4 章（基线、RW、ADF/ACF、MA）
 
-**下一章**：第 6 章 ARMA（ACF 与 PACF 均缓慢衰减）
+**下一章**：[第 6 章 ARMA 与通用建模流程](./chapter06_arma_modeling.md)
 
 **演示脚本**：[`../code/chapter05_ar_process_demo.py`](../code/chapter05_ar_process_demo.py)
 
@@ -59,7 +59,7 @@
 ### 5.5 下一步
 
 - ACF 慢衰减 + PACF 在 \(p\) 截断 → **AR(p)**。
-- **ACF 与 PACF 都慢衰减** → **ARMA**（第 6 章），非纯 AR 或纯 MA。
+- **ACF 与 PACF 都慢衰减** → **[ARMA](./chapter06_arma_modeling.md)**，非纯 AR 或纯 MA。
 
 ### 5.6 练习与本章小结
 
