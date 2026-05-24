@@ -14,6 +14,11 @@
 | 第 10 章 VAR 多变量 | [chapter10_var_multivariate.md](./chapter10_var_multivariate.md) | [chapter10_var_demo.py](../code/chapter10_var_demo.py) |
 | 第 11 章 顶点项目 | [chapter11_capstone_aus_drugs.md](./chapter11_capstone_aus_drugs.md) | [chapter11_capstone_demo.py](../code/chapter11_capstone_demo.py) |
 | 第 12 章 深度学习入门 | [chapter12_deep_learning_intro.md](./chapter12_deep_learning_intro.md) | [chapter12_dl_preprocess_demo.py](../code/chapter12_dl_preprocess_demo.py) |
+| 第 13 章 数据窗口与基线 | [chapter13_data_window_baselines.md](./chapter13_data_window_baselines.md) | [chapter13_data_window_baseline_demo.py](../code/chapter13_data_window_baseline_demo.py) |
+| 第 14 章 线性模型与 DNN | [chapter14_linear_and_dnn.md](./chapter14_linear_and_dnn.md) | [chapter14_linear_dnn_demo.py](../code/chapter14_linear_dnn_demo.py) |
+| 第 15 章 LSTM | [chapter15_lstm.md](./chapter15_lstm.md) | [chapter15_lstm_demo.py](../code/chapter15_lstm_demo.py) |
+| 第 16 章 CNN | [chapter16_cnn.md](./chapter16_cnn.md) | [chapter16_cnn_demo.py](../code/chapter16_cnn_demo.py) |
+| 第 17 章 ARLSTM | [chapter17_arlstm.md](./chapter17_arlstm.md) | [chapter17_arlstm_demo.py](../code/chapter17_arlstm_demo.py) |
 
 **笔记结构**：章节总览 → 书本提炼 → 生命周期速查 → 演示 → 量化衔接 → 自检 → 留白。
 

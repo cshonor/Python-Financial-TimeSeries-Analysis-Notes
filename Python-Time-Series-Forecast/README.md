@@ -41,6 +41,11 @@
 | 第 10 章 VAR 多变量 | [docs/chapter10_var_multivariate.md](./docs/chapter10_var_multivariate.md) | [code/chapter10_var_demo.py](./code/chapter10_var_demo.py) |
 | 第 11 章 顶点项目 | [docs/chapter11_capstone_aus_drugs.md](./docs/chapter11_capstone_aus_drugs.md) | [code/chapter11_capstone_demo.py](./code/chapter11_capstone_demo.py) |
 | 第 12 章 深度学习入门 | [docs/chapter12_deep_learning_intro.md](./docs/chapter12_deep_learning_intro.md) | [code/chapter12_dl_preprocess_demo.py](./code/chapter12_dl_preprocess_demo.py) |
+| 第 13 章 数据窗口与基线 | [docs/chapter13_data_window_baselines.md](./docs/chapter13_data_window_baselines.md) | [code/chapter13_data_window_baseline_demo.py](./code/chapter13_data_window_baseline_demo.py) |
+| 第 14 章 线性模型与 DNN | [docs/chapter14_linear_and_dnn.md](./docs/chapter14_linear_and_dnn.md) | [code/chapter14_linear_dnn_demo.py](./code/chapter14_linear_dnn_demo.py) |
+| 第 15 章 LSTM | [docs/chapter15_lstm.md](./docs/chapter15_lstm.md) | [code/chapter15_lstm_demo.py](./code/chapter15_lstm_demo.py) |
+| 第 16 章 CNN | [docs/chapter16_cnn.md](./docs/chapter16_cnn.md) | [code/chapter16_cnn_demo.py](./code/chapter16_cnn_demo.py) |
+| 第 17 章 ARLSTM | [docs/chapter17_arlstm.md](./docs/chapter17_arlstm.md) | [code/chapter17_arlstm_demo.py](./code/chapter17_arlstm_demo.py) |
 
 ## 建议学习顺序
 
@@ -56,7 +61,12 @@
 10. 第 10 章：`docs/chapter10_*` + `code/chapter10_var_demo.py`  
 11. 第 11 章：`docs/chapter11_*` + `code/chapter11_capstone_demo.py`  
 12. 第 12 章：`docs/chapter12_*` + `code/chapter12_dl_preprocess_demo.py`  
-13. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
-14. 第 13 章起：DL 基准 / DNN / LSTM / CNN（`docs/` 持续追加）  
+13. 第 13 章：`docs/chapter13_*` + `code/chapter13_data_window_baseline_demo.py`  
+14. 第 14 章：`docs/chapter14_*` + `code/chapter14_linear_dnn_demo.py`  
+15. 第 15 章：`docs/chapter15_*` + `code/chapter15_lstm_demo.py`  
+16. 第 16 章：`docs/chapter16_*` + `code/chapter16_cnn_demo.py`  
+17. 第 17 章：`docs/chapter17_*` + `code/chapter17_arlstm_demo.py`  
+18. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
+19. 第 18 章起：Prophet / 顶点项目（`docs/` 持续追加）  
 
 **前置**：`../Python-Data-Analysis/docs/chapter11_time_series.md`、`../Python-Data-Analysis/code/numpy/`、`../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/`。

@@ -5,7 +5,7 @@
 
 **前置**：[第 11 章 顶点项目](./chapter11_capstone_aus_drugs.md)（统计学篇收官）
 
-**下一章**：第 13 章 **基准与线性 / DNN 模型**（单步、多步、多输出对比）
+**下一章**：[第 13 章 数据窗口与基线](./chapter13_data_window_baselines.md)
 
 **演示脚本**：[`../code/chapter12_dl_preprocess_demo.py`](../code/chapter12_dl_preprocess_demo.py)
 
