@@ -25,4 +25,4 @@
 | `05_shift_and_signal_alignment.md` | shift 与防未来函数 |
 | `06_signal_generation_from_price.md` | 从价格生成信号 |
 
-前置建议：先完成 `../Python-Data-Analysis/code/numpy/` 与 `../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/`。
+前置建议：先完成 `../Python-Data-Analysis/docs/chapter11_time_series.md`（原书第 11 章）与 `../Python-Data-Analysis/code/numpy/`、`../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/`。

@@ -1,5 +1,7 @@
 # Merge / Concat / Join（进阶版：多键、校验、重复键、时间对齐）
 
+> **《利用 Python 进行数据分析》第 8 章总笔记**：[`../../../../Python-Data-Analysis/docs/chapter08_data_wrangling_join_reshape.md`](../../../../Python-Data-Analysis/docs/chapter08_data_wrangling_join_reshape.md)
+>
 > 本文件是 **进阶版**：基础概念见 `00_core_objects/07_dataframe_merge_concat_join.md`。这里专注量化里最容易踩坑的“多表对齐 + 键的唯一性 + 合并后的数据质量”。
 
 ## 1. 多键合并：`on=['date','code']`

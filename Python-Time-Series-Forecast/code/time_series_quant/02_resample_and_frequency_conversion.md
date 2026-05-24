@@ -1,4 +1,7 @@
 # 时间重采样与频率转换
+
+> **《利用 Python 进行数据分析》第 11 章总笔记**：[`../../../Python-Data-Analysis/docs/chapter11_time_series.md`](../../../Python-Data-Analysis/docs/chapter11_time_series.md)
+
 将时间序列在不同周期之间转换，用于多周期策略与降噪。
 
 ## 日线转周线

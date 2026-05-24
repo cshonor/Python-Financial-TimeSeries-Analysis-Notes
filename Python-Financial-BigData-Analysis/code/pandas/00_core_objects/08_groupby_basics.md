@@ -1,6 +1,8 @@
 # 08 GroupBy 基础（分组统计 / 分组变换 / 分组排名）
-  
-`groupby` 是量化最核心的工具之一：  
+
+> **《利用 Python 进行数据分析》第 10 章总笔记**：[`../../../../Python-Data-Analysis/docs/chapter10_data_aggregation_groupby.md`](../../../../Python-Data-Analysis/docs/chapter10_data_aggregation_groupby.md)
+
+`groupby` 是量化最核心的工具之一：
   
 - 做 **分组统计**（行业内均值、日内分层收益）
 - 做 **多股票独立计算**（每只股票自己的收益率、滚动指标）

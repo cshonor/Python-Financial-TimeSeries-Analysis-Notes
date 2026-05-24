@@ -4,6 +4,9 @@
 
 > **说明**：仓库内容为读书笔记与自写示例代码，用于配合原书学习与本地实验；章节标题与知识结构对齐原书，示例与表述为原创整理，便于你在 GitHub 上长期维护与扩展。
 
+**《利用 Python 进行数据分析》第 5 章「pandas 入门」** 章节笔记见：  
+[`../../Python-Data-Analysis/docs/chapter05_pandas_introduction.md`](../../Python-Data-Analysis/docs/chapter05_pandas_introduction.md)
+
 ---
 
 ## 一、仓库定位

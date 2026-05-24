@@ -1,5 +1,8 @@
 # Matplotlib 示例
 
+> **《利用 Python 进行数据分析》第 9 章总笔记**：[`../../docs/chapter09_plotting_visualization.md`](../../docs/chapter09_plotting_visualization.md)  
+> 章节演示脚本：[`../chapter09_plotting_demo.py`](../chapter09_plotting_demo.py)
+
 ## 1.0 数据可视化是什么
 
 数据可视化就是将数据转换成图或表等，以**更直观的方式**展现和呈现数据。通过“可视化”的方式，我们看不懂的数据通过图形化手段**有效地表达**，**准确高效、简洁全面地传递**某种信息，甚至帮助我们发现**规律和特征**，挖掘**数据背后的价值**。

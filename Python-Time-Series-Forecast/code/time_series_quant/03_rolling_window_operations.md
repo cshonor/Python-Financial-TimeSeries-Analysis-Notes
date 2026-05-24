@@ -1,4 +1,7 @@
 # 滚动窗口操作
+
+> **《利用 Python 进行数据分析》第 11 章总笔记**：[`../../../Python-Data-Analysis/docs/chapter11_time_series.md`](../../../Python-Data-Analysis/docs/chapter11_time_series.md)
+
 滚动窗口计算是量化交易中技术指标的核心工具，它在时间序列上以固定长度滑动，计算各种统计量。
 
 ## 常用写法
