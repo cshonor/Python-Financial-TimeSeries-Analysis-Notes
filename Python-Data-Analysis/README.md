@@ -21,6 +21,14 @@
 | `code/scipy/` | SciPy 子模块导读（待扩充） |
 | `code/statsmodels/` | 统计建模库导读（待扩充） |
 
+## 章节笔记（`docs/`）
+
+| 章节 | 笔记 |
+|------|------|
+| 第 1 章 准备工作 | [docs/chapter01_getting_started.md](./docs/chapter01_getting_started.md) |
+| 第 1 章 环境脚本 | [code/chapter01_environment_setup.py](./code/chapter01_environment_setup.py) |
+
 ## 建议学习顺序
 
-1. `code/numpy/` → 2. 配合 `../Python-Financial-BigData-Analysis/code/pandas/` → 3. `code/matplotlib/`
+1. `docs/chapter01_getting_started.md` + `code/chapter01_environment_setup.py`  
+2. `code/numpy/` → 3. `../Python-Financial-BigData-Analysis/code/pandas/` → 4. `code/matplotlib/`
