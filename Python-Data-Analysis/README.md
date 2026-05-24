@@ -27,8 +27,17 @@
 |------|------|
 | 第 1 章 准备工作 | [docs/chapter01_getting_started.md](./docs/chapter01_getting_started.md) |
 | 第 1 章 环境脚本 | [code/chapter01_environment_setup.py](./code/chapter01_environment_setup.py) |
+| 第 2 章 语法与 Jupyter | [docs/chapter02_python_syntax_ipython_jupyter.md](./docs/chapter02_python_syntax_ipython_jupyter.md) |
+| 第 2 章 配套脚本 | [code/chapter02_python_basics_demo.py](./code/chapter02_python_basics_demo.py) |
+| 第 3 章 数据结构、函数和文件 | [docs/chapter03_data_structures_functions_files.md](./docs/chapter03_data_structures_functions_files.md) |
+| 第 3 章 配套脚本 | [code/chapter03_data_structures_functions_files.py](./code/chapter03_data_structures_functions_files.py) |
+| 第 4 章 NumPy 基础 | [docs/chapter04_numpy_basics_arrays_vectorization.md](./docs/chapter04_numpy_basics_arrays_vectorization.md) |
+| 第 4 章 综合演示 | [code/chapter04_numpy_basics_demo.py](./code/chapter04_numpy_basics_demo.py) |
 
 ## 建议学习顺序
 
-1. `docs/chapter01_getting_started.md` + `code/chapter01_environment_setup.py`  
-2. `code/numpy/` → 3. `../Python-Financial-BigData-Analysis/code/pandas/` → 4. `code/matplotlib/`
+1. 第 1 章：`docs/chapter01_*` + `code/chapter01_environment_setup.py`  
+2. 第 2 章：`docs/chapter02_*` + `code/chapter02_python_basics_demo.py`  
+3. 第 3 章：`docs/chapter03_*` + `code/chapter03_data_structures_functions_files.py`  
+4. 第 4 章：`docs/chapter04_*` + `code/chapter04_numpy_basics_demo.py`，再按 [`code/numpy/README.md`](./code/numpy/README.md) 刷专题  
+5. `../Python-Financial-BigData-Analysis/code/pandas/` → 6. `code/matplotlib/`
