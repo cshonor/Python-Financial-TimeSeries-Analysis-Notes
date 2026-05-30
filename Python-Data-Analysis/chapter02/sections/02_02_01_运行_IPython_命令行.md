@@ -8,7 +8,9 @@
 
 ### 2.2.1 运行 IPython 命令行
 
-IPython 是增强型交互式 Python Shell，数据分析中常用于 **快速试代码、跑脚本、查文档**。与标准 `python` 的 `>>>` 不同，IPython 用带序号的 **`In [N]:` / `Out [N]:`** 追踪每次输入输出，便于回溯实验过程。
+IPython 是增强型交互式 Python Shell（**不是解释器**，底层仍用 **CPython**），数据分析中常用于 **快速试代码、跑脚本、查文档**。与 CPython 自带 REPL 的 `>>>` 不同，IPython 用带序号的 **`In [N]:` / `Out [N]:`** 追踪每次输入输出，便于回溯实验过程。
+
+> CPython vs IPython 层级关系见 [2.1 Python 解释器](./02_01_Python_解释器.md)。
 
 #### 1. 启动 IPython
 

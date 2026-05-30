@@ -44,6 +44,7 @@
 
 | 主题 | 要点 |
 |------|------|
+| 解释器 | CPython = 发动机；IPython = 豪华操作台（见 2.1） |
 | 环境 | `ipython`、`jupyter lab`、`%run file.py`、`%timeit`、`!dir`/`!ls` |
 | 自省 | `pd.read_csv?`、`np.*?` |
 | 引用 | `b = a` 共享对象；复制用 `list.copy()` / `df.copy()` |
@@ -110,7 +111,7 @@ for i, x in enumerate([10, 20, 30]):
 
 ### 2.1 Python 解释器
 
-（留白）
+已整理：[02_01_Python_解释器](./sections/02_01_Python_解释器.md)（**CPython vs IPython** 层级对比）
 
 ### 2.2 IPython / Jupyter
 
