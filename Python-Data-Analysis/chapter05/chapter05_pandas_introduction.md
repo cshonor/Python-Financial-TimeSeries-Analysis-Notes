@@ -9,7 +9,7 @@
 
 | 主题 | 路径 |
 |------|------|
-| Series / DataFrame 基础 | [`../../../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/`](../../../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/) |
+| Series / DataFrame 基础 | [`../../../Python-Financial-BigData-Analysis/chapter05/`](../../../Python-Financial-BigData-Analysis/chapter05/chapter05_pandas_data_analysis.md) + [`code/pandas/00_core_objects/`](../../../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/) |
 | loc / iloc / merge | 同上 + [`01_core_data_operations/`](../../../Python-Financial-BigData-Analysis/code/pandas/01_core_data_operations/) |
 
 **本章综合演示**：[`./code/chapter05_pandas_intro_demo.py`](./code/chapter05_pandas_intro_demo.py)

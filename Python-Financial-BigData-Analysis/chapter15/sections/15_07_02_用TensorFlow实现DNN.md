@@ -1,0 +1,13 @@
+# 15.7.2 用TensorFlow实现DNN
+
+> 所属：[第 15 章](../chapter15_trading_strategies.md) · 《Python金融大数据分析（第2版）》
+
+---
+
+### 15.7.2 用TensorFlow实现DNN
+
+（留白：书本提炼 / 语法速查 / 演示 / 量化衔接 / 自检）
+
+---
+
+[← 返回第 15 章](../chapter15_trading_strategies.md)

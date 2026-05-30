@@ -11,7 +11,7 @@ Python **金融时序分析**学习笔记仓库：按四本教材分册归档，
 | 文件夹 | 对应教材 | 当前主要内容 |
 |--------|----------|----------------|
 | [Python-Data-Analysis](./Python-Data-Analysis/) | 《利用 Python 进行数据分析》 | 13 章分册（`chapter01/`～`chapter13/`）+ NumPy / Matplotlib 等共享专题 |
-| [Python-Financial-BigData-Analysis](./Python-Financial-BigData-Analysis/) | 《Python 数据金融大数据分析》 | Pandas 量化预处理体系（核心对象、清洗、多标的等） |
+| [Python-Financial-BigData-Analysis](./Python-Financial-BigData-Analysis/) | 《Python金融大数据分析（第2版）》Hilpisch | **21 章**分册 + `code/pandas/` 深化专题 |
 | [Python-Time-Series-Forecast](./Python-Time-Series-Forecast/) | 《Python 时间序列预测》 | 21 章分册 + `code/time_series_quant/` 时序专题 |
 | [Financial-Data-Python-Application](./Financial-Data-Python-Application/) | 《金融数据分析及其 Python 应用》 | 预留：金融案例、应用向笔记与习题 |
 
@@ -45,7 +45,7 @@ Python-Financial-TimeSeries-Analysis-Notes/
 ## 推荐学习顺序
 
 1. **Python-Data-Analysis**：`chapter01/` → `chapter13/` 按章精读；共享专题见 `code/numpy/`、`code/matplotlib/` 等  
-2. **Python-Financial-BigData-Analysis**：`code/pandas/` 数据结构 → 清洗 → 多标的  
+2. **Python-Financial-BigData-Analysis**：`chapter01/` → `chapter21/`（Hilpisch 第2版）；深化见 `code/pandas/`  
 3. **Python-Time-Series-Forecast**：`chapter01/` → `chapter21/` + `code/time_series_quant/` 重采样、窗口、信号对齐  
 4. **Financial-Data-Python-Application**：综合案例与建模应用（持续填充）
 

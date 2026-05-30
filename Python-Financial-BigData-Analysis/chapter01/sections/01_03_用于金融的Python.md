@@ -1,0 +1,18 @@
+# 1.3 用于金融的Python
+
+> 所属：[第 1 章](../chapter01_why_python_for_finance.md) · 《Python金融大数据分析（第2版）》
+
+---
+
+### 1.3 用于金融的Python
+
+（留白：书本提炼 / 语法速查 / 演示 / 量化衔接 / 自检）
+
+**子节**：
+- 1.3.1 金融和Python语法
+- 1.3.2 Python的效率和生产率
+- 1.3.3 从原型化到生产
+
+---
+
+[← 返回第 1 章](../chapter01_why_python_for_finance.md)
