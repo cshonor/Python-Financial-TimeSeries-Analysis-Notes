@@ -161,4 +161,4 @@ winsor = np.minimum(np.maximum(rets, -0.05), 0.05)
 
 ---
 
-[← 返回第 4 章](../chapter04_numpy_basics_arrays_vectorization.md) · [4.3～4.5 合并速查](./chapter04_核心速查_4_3_4_4_4_5.md)
+[← 返回第 4 章](../chapter04_numpy_basics_arrays_vectorization.md) · [4.3～4.6 合并速查](./chapter04_核心速查_4_3_4_6.md)
