@@ -5,7 +5,7 @@
 > **说明**：仓库内容为读书笔记与自写示例代码，用于配合原书学习与本地实验；章节标题与知识结构对齐原书，示例与表述为原创整理，便于你在 GitHub 上长期维护与扩展。
 
 **《利用 Python 进行数据分析》第 5 章「pandas 入门」** 章节笔记见：  
-[`../../Python-Data-Analysis/docs/chapter05_pandas_introduction.md`](../../Python-Data-Analysis/docs/chapter05_pandas_introduction.md)
+[`../../Python-Data-Analysis/chapter05/chapter05_pandas_introduction.md`](../../Python-Data-Analysis/chapter05/chapter05_pandas_introduction.md)
 
 ---
 
@@ -41,7 +41,7 @@ pip install statsmodels
 3. **变形、缺失、离群、重复**（`02_data_cleaning_preprocessing`）→ 能清洗到可回测、可回归的表格。  
 4. **时间序列**（已迁至 [`../../Python-Time-Series-Forecast/code/time_series_quant/`](../../Python-Time-Series-Forecast/code/time_series_quant/)）→ 重采样、rolling、shift 对齐。  
 5. **分组与多表、多标的**（`04_multi_asset_data_handling`）→ MultiIndex、长宽表、行业中性等多资产套路。  
-6. **综合实战**（[`../../exercise/quant_practice_cases/`](../../exercise/quant_practice_cases/)）→ 从 EDA 到「建模前全流程预处理」模板。
+6. **综合实战**（`04_multi_asset_data_handling/` + 各章 `chapterXX_*.py`）→ 从 EDA 到「建模前全流程预处理」模板。
 
 ---
 
@@ -54,7 +54,6 @@ pip install statsmodels
 | `02_data_cleaning_preprocessing/` | 第 5 章 数据变形 + 第 6 章 缺失/离群/重复 | 停牌类缺失、`ffill` 策略、3σ/Z-score 截断、哑变量（回归必备） |
 | `../Python-Time-Series-Forecast/code/time_series_quant/` | 第 8 章 时间序列数据处理 | 交易日对齐、`resample`、rolling/expanding、`shift` 防未来函数 |
 | `04_multi_asset_data_handling/` | 第 7 章 分组与高级函数 + 多表合并思路 | `MultiIndex (date, code)`、merge 校验、`pivot`/`stack`、分组行业中性 |
-| `../exercise/quant_practice_cases/` | 第 9 章 数据分析基础与实战案例 | 因子 EDA、四类核心操作练习、NumPy+Pandas 入门脚本 |
 
 各子目录下将逐步补齐与上表一致的 **`chapterXX_*.md` + `chapterXX_*.py`**；已有的 `01_series_basics` 等文件保留为**语法速查与短练习**，与章节大笔记并存、互不冲突。
 
@@ -94,6 +93,4 @@ pip install statsmodels
 | 优先阅读 | 路径 |
 |----------|------|
 | 第 2 章（数据结构 + 量化约定） | `00_core_objects/chapter02_pandas_data_structures_quant.md` |
-| 四类核心操作练习清单 | `../../exercise/quant_practice_cases/00_core_operations_practice_checklist.md` |
-| NumPy + Pandas 入门 10 练 | `../../exercise/quant_practice_cases/00_numpy_pandas_beginner_exercises.py` |
 | 时间序列专题 | `../../Python-Time-Series-Forecast/code/time_series_quant/` |

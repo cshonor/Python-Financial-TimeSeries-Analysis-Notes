@@ -1,6 +1,6 @@
 # Pivot & Reshape（进阶版：pivot_table 参数、缺失处理、超大宽表策略）
 
-> **《利用 Python 进行数据分析》第 8 章总笔记**：[`../../../../Python-Data-Analysis/docs/chapter08_data_wrangling_join_reshape.md`](../../../../Python-Data-Analysis/docs/chapter08_data_wrangling_join_reshape.md)
+> **《利用 Python 进行数据分析》第 8 章总笔记**：[`../../../../Python-Data-Analysis/chapter08/chapter08_data_wrangling_join_reshape.md`](../../../../Python-Data-Analysis/chapter08/chapter08_data_wrangling_join_reshape.md)
 >
 > 本文件是 **进阶版**：基础用法见 `00_core_objects/09_pivot_table_and_reshape.md`。这里补齐量化里真正会用到的复杂参数与坑。
 

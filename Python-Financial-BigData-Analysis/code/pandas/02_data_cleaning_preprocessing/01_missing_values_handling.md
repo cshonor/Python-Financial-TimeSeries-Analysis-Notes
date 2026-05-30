@@ -1,7 +1,7 @@
 # 数据清洗与预处理
 
 > 覆盖：49-pandas数据类型练习 → 60-排序和随机抽样  
-> **《利用 Python 进行数据分析》第 7 章总笔记**：[`../../../../Python-Data-Analysis/docs/chapter07_data_cleaning_preparation.md`](../../../../Python-Data-Analysis/docs/chapter07_data_cleaning_preparation.md)
+> **《利用 Python 进行数据分析》第 7 章总笔记**：[`../../../../Python-Data-Analysis/chapter07/chapter07_data_cleaning_preparation.md`](../../../../Python-Data-Analysis/chapter07/chapter07_data_cleaning_preparation.md)
 
 ## 一、pandas 数据类型练习
 

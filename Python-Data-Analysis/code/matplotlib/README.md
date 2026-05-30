@@ -1,6 +1,6 @@
 # Matplotlib 示例
 
-> **《利用 Python 进行数据分析》第 9 章总笔记**：[`../../docs/chapter09_plotting_visualization.md`](../../docs/chapter09_plotting_visualization.md)  
+> **《利用 Python 进行数据分析》第 9 章总笔记**：[`../../chapter09/chapter09_plotting_visualization.md`](../../chapter09/chapter09_plotting_visualization.md)  
 > 章节演示脚本：[`../chapter09_plotting_demo.py`](../chapter09_plotting_demo.py)
 
 ## 1.0 数据可视化是什么

@@ -2,19 +2,50 @@
 
 对应教材：**《Python 时间序列预测》**。
 
-本册侧重：**交易日历、重采样、滚动/扩展窗口、信号 shift 对齐、时序规整**（对接 ARIMA / Prophet / statsmodels 等预测流程的前置数据处理）。
+本册侧重：时间序列预测工作流、经典 ARIMA/SARIMA、深度学习时序模型、Prophet，以及 **交易日历 / 重采样 / 滚动窗口 / shift 防前瞻** 等量化前置处理。
 
-## 目录说明
+## 目录架构（按章拆分）
 
-| 子目录 | 用途 |
-|--------|------|
-| `docs/` | 原书章节笔记（[`docs/README.md`](./docs/README.md)） |
-| `code/time_series_quant/` | **当前主力**：从金融大数据册迁出的时序量化专题 |
-| `dataset/` | 单标的 / 多频率样本序列 |
-| `exercise/` | 预测与回测练习题 |
-| `assets/` | 时序示意图、ACF/PACF 截图等 |
+全书 **21 章**，每章独立文件夹，内含：
 
-## `code/time_series_quant/` 文件索引
+| 子目录 / 文件 | 说明 |
+|---------------|------|
+| `chapterNN_*.md` | **章总览**（章节总览、速查、演示、量化衔接、自检） |
+| `code/` | 本章配套可运行脚本 |
+
+书级共享资源（跨章专题）：
+
+| 路径 | 说明 |
+|------|------|
+| [`code/time_series_quant/`](./code/time_series_quant/) | 时序量化专题（resample、rolling、shift 等） |
+
+## 章节索引
+
+| 章 | 总览 | 配套代码 |
+|----|------|----------|
+| 第 1 章 了解时间序列预测 | [chapter01/chapter01_time_series_forecasting_intro.md](./chapter01/chapter01_time_series_forecasting_intro.md) | [chapter01/code/](./chapter01/code/) |
+| 第 2 章 基线预测 | [chapter02/chapter02_baseline_forecasting.md](./chapter02/chapter02_baseline_forecasting.md) | [chapter02/code/](./chapter02/code/) |
+| 第 3 章 随机游走 | [chapter03/chapter03_random_walk.md](./chapter03/chapter03_random_walk.md) | [chapter03/code/](./chapter03/code/) |
+| 第 4 章 移动平均 MA | [chapter04/chapter04_moving_average_process.md](./chapter04/chapter04_moving_average_process.md) | [chapter04/code/](./chapter04/code/) |
+| 第 5 章 自回归 AR | [chapter05/chapter05_autoregressive_process.md](./chapter05/chapter05_autoregressive_process.md) | [chapter05/code/](./chapter05/code/) |
+| 第 6 章 ARMA 建模 | [chapter06/chapter06_arma_modeling.md](./chapter06/chapter06_arma_modeling.md) | [chapter06/code/](./chapter06/code/) |
+| 第 7 章 ARIMA | [chapter07/chapter07_arima_nonstationary.md](./chapter07/chapter07_arima_nonstationary.md) | [chapter07/code/](./chapter07/code/) |
+| 第 8 章 SARIMA 季节性 | [chapter08/chapter08_sarima_seasonality.md](./chapter08/chapter08_sarima_seasonality.md) | [chapter08/code/](./chapter08/code/) |
+| 第 9 章 SARIMAX 外生变量 | [chapter09/chapter09_sarimax_exogenous.md](./chapter09/chapter09_sarimax_exogenous.md) | [chapter09/code/](./chapter09/code/) |
+| 第 10 章 VAR 多变量 | [chapter10/chapter10_var_multivariate.md](./chapter10/chapter10_var_multivariate.md) | [chapter10/code/](./chapter10/code/) |
+| 第 11 章 顶点项目 | [chapter11/chapter11_capstone_aus_drugs.md](./chapter11/chapter11_capstone_aus_drugs.md) | [chapter11/code/](./chapter11/code/) |
+| 第 12 章 深度学习入门 | [chapter12/chapter12_deep_learning_intro.md](./chapter12/chapter12_deep_learning_intro.md) | [chapter12/code/](./chapter12/code/) |
+| 第 13 章 数据窗口与基线 | [chapter13/chapter13_data_window_baselines.md](./chapter13/chapter13_data_window_baselines.md) | [chapter13/code/](./chapter13/code/) |
+| 第 14 章 线性模型与 DNN | [chapter14/chapter14_linear_and_dnn.md](./chapter14/chapter14_linear_and_dnn.md) | [chapter14/code/](./chapter14/code/) |
+| 第 15 章 LSTM | [chapter15/chapter15_lstm.md](./chapter15/chapter15_lstm.md) | [chapter15/code/](./chapter15/code/) |
+| 第 16 章 CNN | [chapter16/chapter16_cnn.md](./chapter16/chapter16_cnn.md) | [chapter16/code/](./chapter16/code/) |
+| 第 17 章 ARLSTM | [chapter17/chapter17_arlstm.md](./chapter17/chapter17_arlstm.md) | [chapter17/code/](./chapter17/code/) |
+| 第 18 章 DL 顶点项目 | [chapter18/chapter18_capstone_household_power.md](./chapter18/chapter18_capstone_household_power.md) | [chapter18/code/](./chapter18/code/) |
+| 第 19 章 Prophet | [chapter19/chapter19_prophet.md](./chapter19/chapter19_prophet.md) | [chapter19/code/](./chapter19/code/) |
+| 第 20 章 收官顶点 | [chapter20/chapter20_capstone_steak_price.md](./chapter20/chapter20_capstone_steak_price.md) | [chapter20/code/](./chapter20/code/) |
+| 第 21 章 全书总结 | [chapter21/chapter21_beyond_self_summary.md](./chapter21/chapter21_beyond_self_summary.md) | [chapter21/code/](./chapter21/code/) |
+
+## `code/time_series_quant/` 专题索引
 
 | 文件 | 主题 |
 |------|------|
@@ -25,55 +56,18 @@
 | `05_shift_and_signal_alignment.md` | shift 与防未来函数 |
 | `06_signal_generation_from_price.md` | 从价格生成信号 |
 
-## 章节笔记（`docs/`）
-
-| 章节 | 笔记 | 脚本 |
-|------|------|------|
-| 第 1 章 了解时间序列预测 | [docs/chapter01_time_series_forecasting_intro.md](./docs/chapter01_time_series_forecasting_intro.md) | [code/chapter01_forecast_workflow_demo.py](./code/chapter01_forecast_workflow_demo.py) |
-| 第 2 章 基线预测 | [docs/chapter02_baseline_forecasting.md](./docs/chapter02_baseline_forecasting.md) | [code/chapter02_baseline_forecast_demo.py](./code/chapter02_baseline_forecast_demo.py) |
-| 第 3 章 随机游走 | [docs/chapter03_random_walk.md](./docs/chapter03_random_walk.md) | [code/chapter03_random_walk_demo.py](./code/chapter03_random_walk_demo.py) |
-| 第 4 章 移动平均 MA | [docs/chapter04_moving_average_process.md](./docs/chapter04_moving_average_process.md) | [code/chapter04_ma_process_demo.py](./code/chapter04_ma_process_demo.py) |
-| 第 5 章 自回归 AR | [docs/chapter05_autoregressive_process.md](./docs/chapter05_autoregressive_process.md) | [code/chapter05_ar_process_demo.py](./code/chapter05_ar_process_demo.py) |
-| 第 6 章 ARMA 建模 | [docs/chapter06_arma_modeling.md](./docs/chapter06_arma_modeling.md) | [code/chapter06_arma_modeling_demo.py](./code/chapter06_arma_modeling_demo.py) |
-| 第 7 章 ARIMA | [docs/chapter07_arima_nonstationary.md](./docs/chapter07_arima_nonstationary.md) | [code/chapter07_arima_demo.py](./code/chapter07_arima_demo.py) |
-| 第 8 章 SARIMA 季节性 | [docs/chapter08_sarima_seasonality.md](./docs/chapter08_sarima_seasonality.md) | [code/chapter08_sarima_demo.py](./code/chapter08_sarima_demo.py) |
-| 第 9 章 SARIMAX 外生变量 | [docs/chapter09_sarimax_exogenous.md](./docs/chapter09_sarimax_exogenous.md) | [code/chapter09_sarimax_demo.py](./code/chapter09_sarimax_demo.py) |
-| 第 10 章 VAR 多变量 | [docs/chapter10_var_multivariate.md](./docs/chapter10_var_multivariate.md) | [code/chapter10_var_demo.py](./code/chapter10_var_demo.py) |
-| 第 11 章 顶点项目 | [docs/chapter11_capstone_aus_drugs.md](./docs/chapter11_capstone_aus_drugs.md) | [code/chapter11_capstone_demo.py](./code/chapter11_capstone_demo.py) |
-| 第 12 章 深度学习入门 | [docs/chapter12_deep_learning_intro.md](./docs/chapter12_deep_learning_intro.md) | [code/chapter12_dl_preprocess_demo.py](./code/chapter12_dl_preprocess_demo.py) |
-| 第 13 章 数据窗口与基线 | [docs/chapter13_data_window_baselines.md](./docs/chapter13_data_window_baselines.md) | [code/chapter13_data_window_baseline_demo.py](./code/chapter13_data_window_baseline_demo.py) |
-| 第 14 章 线性模型与 DNN | [docs/chapter14_linear_and_dnn.md](./docs/chapter14_linear_and_dnn.md) | [code/chapter14_linear_dnn_demo.py](./code/chapter14_linear_dnn_demo.py) |
-| 第 15 章 LSTM | [docs/chapter15_lstm.md](./docs/chapter15_lstm.md) | [code/chapter15_lstm_demo.py](./code/chapter15_lstm_demo.py) |
-| 第 16 章 CNN | [docs/chapter16_cnn.md](./docs/chapter16_cnn.md) | [code/chapter16_cnn_demo.py](./code/chapter16_cnn_demo.py) |
-| 第 17 章 ARLSTM | [docs/chapter17_arlstm.md](./docs/chapter17_arlstm.md) | [code/chapter17_arlstm_demo.py](./code/chapter17_arlstm_demo.py) |
-| 第 18 章 DL 顶点项目 | [docs/chapter18_capstone_household_power.md](./docs/chapter18_capstone_household_power.md) | [code/chapter18_capstone_power_demo.py](./code/chapter18_capstone_power_demo.py) |
-| 第 19 章 Prophet | [docs/chapter19_prophet.md](./docs/chapter19_prophet.md) | [code/chapter19_prophet_demo.py](./code/chapter19_prophet_demo.py) |
-| 第 20 章 收官顶点 | [docs/chapter20_capstone_steak_price.md](./docs/chapter20_capstone_steak_price.md) | [code/chapter20_capstone_steak_demo.py](./code/chapter20_capstone_steak_demo.py) |
-| 第 21 章 全书总结 | [docs/chapter21_beyond_self_summary.md](./docs/chapter21_beyond_self_summary.md) | [code/chapter21_summary_guide_demo.py](./code/chapter21_summary_guide_demo.py) |
-
 ## 建议学习顺序
 
-1. 第 1 章：`docs/chapter01_*` + `code/chapter01_forecast_workflow_demo.py`  
-2. 第 2 章：`docs/chapter02_*` + `code/chapter02_baseline_forecast_demo.py`  
-3. 第 3 章：`docs/chapter03_*` + `code/chapter03_random_walk_demo.py`  
-4. 第 4 章：`docs/chapter04_*` + `code/chapter04_ma_process_demo.py`  
-5. 第 5 章：`docs/chapter05_*` + `code/chapter05_ar_process_demo.py`  
-6. 第 6 章：`docs/chapter06_*` + `code/chapter06_arma_modeling_demo.py`  
-7. 第 7 章：`docs/chapter07_*` + `code/chapter07_arima_demo.py`  
-8. 第 8 章：`docs/chapter08_*` + `code/chapter08_sarima_demo.py`  
-9. 第 9 章：`docs/chapter09_*` + `code/chapter09_sarimax_demo.py`  
-10. 第 10 章：`docs/chapter10_*` + `code/chapter10_var_demo.py`  
-11. 第 11 章：`docs/chapter11_*` + `code/chapter11_capstone_demo.py`  
-12. 第 12 章：`docs/chapter12_*` + `code/chapter12_dl_preprocess_demo.py`  
-13. 第 13 章：`docs/chapter13_*` + `code/chapter13_data_window_baseline_demo.py`  
-14. 第 14 章：`docs/chapter14_*` + `code/chapter14_linear_dnn_demo.py`  
-15. 第 15 章：`docs/chapter15_*` + `code/chapter15_lstm_demo.py`  
-16. 第 16 章：`docs/chapter16_*` + `code/chapter16_cnn_demo.py`  
-17. 第 17 章：`docs/chapter17_*` + `code/chapter17_arlstm_demo.py`  
-18. 第 18 章：`docs/chapter18_*` + `code/chapter18_capstone_power_demo.py`  
-19. 第 19 章：`docs/chapter19_*` + `code/chapter19_prophet_demo.py`  
-20. 第 20 章：`docs/chapter20_*` + `code/chapter20_capstone_steak_demo.py`  
-21. 第 21 章：`docs/chapter21_*` + `code/chapter21_summary_guide_demo.py`（全书总结）  
-22. [`code/time_series_quant/`](./code/time_series_quant/) 专题（与 pandas 第 11 章并行）  
+1. `chapter01/` → `chapter08/`（经典时序建模主线）  
+2. `chapter09/` → `chapter11/`（外生变量、VAR、综合案例）  
+3. `chapter12/` → `chapter21/`（深度学习 + Prophet + 收官）  
+4. 并行精读 [`code/time_series_quant/`](./code/time_series_quant/)（与 pandas 第 11 章能力对齐）
 
-**前置**：`../Python-Data-Analysis/docs/chapter11_time_series.md`、`../Python-Data-Analysis/code/numpy/`、`../Python-Financial-BigData-Analysis/code/pandas/00_core_objects/`。
+**前置**：[`../Python-Data-Analysis/chapter11/`](../Python-Data-Analysis/chapter11/)、[`../Python-Data-Analysis/code/numpy/`](../Python-Data-Analysis/code/numpy/)、[`../Python-Financial-BigData-Analysis/code/pandas/`](../Python-Financial-BigData-Analysis/code/pandas/)。
+
+## 运行示例
+
+```bash
+python Python-Time-Series-Forecast/chapter01/code/chapter01_forecast_workflow_demo.py
+python Python-Time-Series-Forecast/chapter07/code/chapter07_arima_demo.py
+```

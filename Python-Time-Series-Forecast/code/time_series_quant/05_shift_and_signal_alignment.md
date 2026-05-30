@@ -1,6 +1,6 @@
 # 数据移位与信号对齐
 
-> **《Python 时间序列预测》第 1 章**（前瞻偏差）：[`../../docs/chapter01_time_series_forecasting_intro.md`](../../docs/chapter01_time_series_forecasting_intro.md)
+> **《Python 时间序列预测》第 1 章**（前瞻偏差）：[`../../chapter01/chapter01_time_series_forecasting_intro.md`](../../chapter01/chapter01_time_series_forecasting_intro.md)
 
 这是量化回测中**最重要的一节**，用于避免未来函数（未来信息）。
 

@@ -2,7 +2,7 @@
 
 NumPy 是 Python 科学计算的基础库，提供高性能的多维数组对象和数值计算工具。
 
-**原书第 4 章总笔记**（章节脉络 + 与本目录文件对照表）：[`../../docs/chapter04_numpy_basics_arrays_vectorization.md`](../../docs/chapter04_numpy_basics_arrays_vectorization.md)  
+**原书第 4 章总笔记**（章节脉络 + 与本目录文件对照表）：[`../../chapter04/chapter04_numpy_basics_arrays_vectorization.md`](../../chapter04/chapter04_numpy_basics_arrays_vectorization.md)  
 **第 4 章一页综合演示**：[`../chapter04_numpy_basics_demo.py`](../chapter04_numpy_basics_demo.py)
 
 ## 目录结构

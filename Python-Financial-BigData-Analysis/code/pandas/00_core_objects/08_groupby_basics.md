@@ -1,6 +1,6 @@
 # 08 GroupBy 基础（分组统计 / 分组变换 / 分组排名）
 
-> **《利用 Python 进行数据分析》第 10 章总笔记**：[`../../../../Python-Data-Analysis/docs/chapter10_data_aggregation_groupby.md`](../../../../Python-Data-Analysis/docs/chapter10_data_aggregation_groupby.md)
+> **《利用 Python 进行数据分析》第 10 章总笔记**：[`../../../../Python-Data-Analysis/chapter10/chapter10_data_aggregation_groupby.md`](../../../../Python-Data-Analysis/chapter10/chapter10_data_aggregation_groupby.md)
 
 `groupby` 是量化最核心的工具之一：
   

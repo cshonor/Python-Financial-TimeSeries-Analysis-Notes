@@ -14,7 +14,7 @@
 | `statsmodels/` | `Python-Data-Analysis/code/statsmodels/` |
 | `Pandas/` | `Python-Financial-BigData-Analysis/code/pandas/` |
 | `Pandas/03_time_series_for_quant/` | `Python-Time-Series-Forecast/code/time_series_quant/` |
-| `Pandas/05_quant_practice_cases/` | `Python-Financial-BigData-Analysis/exercise/quant_practice_cases/` |
+| `Pandas/05_quant_practice_cases/` | （已移除）原练习内容可后续并入 `Python-Financial-BigData-Analysis/code/pandas/` |
 
 ## 本地克隆后注意
 

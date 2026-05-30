@@ -1,6 +1,6 @@
 # GroupBy 与聚合（进阶版：多维分组 / agg 命名 / transform / 分层回测）
 
-> **《利用 Python 进行数据分析》第 10 章总笔记**：[`../../../../Python-Data-Analysis/docs/chapter10_data_aggregation_groupby.md`](../../../../Python-Data-Analysis/docs/chapter10_data_aggregation_groupby.md)
+> **《利用 Python 进行数据分析》第 10 章总笔记**：[`../../../../Python-Data-Analysis/chapter10/chapter10_data_aggregation_groupby.md`](../../../../Python-Data-Analysis/chapter10/chapter10_data_aggregation_groupby.md)
 >
 > 本文件是 **进阶版**：默认你已经掌握 `00_core_objects/08_groupby_basics.md` 的基础语法。这里专注量化常用的“复杂分组 + 稳定输出 + 可回测结构”。
 
