@@ -44,7 +44,7 @@
 
 | 主题 | 要点 |
 |------|------|
-| 解释器 | CPython = 发动机；IPython = 豪华操作台（见 2.1） |
+| 解释器 | CPython = 引擎；IPython = Python 专属 Shell（非 IDE，见 2.1） |
 | 环境 | `ipython`、`jupyter lab`、`%run file.py`、`%timeit`、`!dir`/`!ls` |
 | 自省 | `pd.read_csv?`、`np.*?` |
 | 引用 | `b = a` 共享对象；复制用 `list.copy()` / `df.copy()` |
@@ -115,7 +115,7 @@ for i, x in enumerate([10, 20, 30]):
 
 ### 2.2 IPython / Jupyter
 
-已整理：[02_02_01 运行 IPython 命令行](./sections/02_02_01_运行_IPython_命令行.md)（魔法命令速查表）；2.2.2～2.2.4 见 `sections/`。
+已整理：[02_02_01 IPython 命令行](./sections/02_02_01_运行_IPython_命令行.md)、[02_02_02 Jupyter](./sections/02_02_02_运行_Jupyter_Notebook.md)（IPython 内核关系）；2.2.3～2.2.4 见 `sections/`。
 
 ### 2.3.1 语义与引用
 

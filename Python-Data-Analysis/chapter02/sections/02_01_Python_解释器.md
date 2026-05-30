@@ -6,7 +6,10 @@
 
 ## 核心结论（先背）
 
-**CPython 是 Python 官方解释器（运行引擎）；IPython 是基于 CPython 的交互式增强终端。** 二者层级完全不同——IPython **不是**解释器，不替换底层引擎。
+**CPython** = Python 官方解释器（内核/引擎，真正执行代码）。  
+**IPython** = **Python 专属的高配命令行 Shell**（人机交互入口，底层仍跑 CPython）。
+
+IPython 与 Linux 的 bash/zsh **同一类东西**——都是 **CLI 交互终端**，负责收指令、交给底层引擎、回结果。它 **不是 IDE**，也 **不是**解释器。
 
 ---
 
@@ -36,64 +39,90 @@ python my_strategy.py     # 脚本由 CPython 执行
 
 ---
 
-### 2. IPython
+### 2. IPython（≈ 增强版 Python Shell）
 
 | 项 | 说明 |
 |----|------|
-| **定位** | **交互式 Shell（终端/UI 层）**，不是解释器；默认底层仍调用 **CPython** |
+| **定位** | **交互式命令行 Shell（CLI）**，与 bash/zsh 同类；专用于 Python，底层调用 **CPython** |
+| **对比原生终端** | `python` → `>>>` = **简陋 Shell**；**IPython = 功能超强的 Python 专属 Shell** |
 | **核心优势** | 高亮、Tab 补全、历史回溯；魔法命令（`%run`/`%timeit`）；`?`/`??` 自省；多行编辑 |
-| **与 Jupyter** | Jupyter Notebook/Lab 的 **内核即 IPython** |
-| **典型场景** | 交互调试、因子试算、数据分析探索、教学演示 |
+| **与 Jupyter** | 前端是 Notebook/Lab（Web UI）；**内核 = IPython**；详见 [2.2.2](./02_02_02_运行_Jupyter_Notebook.md) |
+| **典型场景** | 逐行试代码、快速实验、交互调试、因子探针 |
+| **能否写代码** | ✅ 可逐行/多行/`%%` 写代码；❌ 不适合大型工程项目（见 [2.2.2](./02_02_02_运行_Jupyter_Notebook.md)） |
 
-详见 [2.2.1 运行 IPython 命令行](./02_02_01_运行_IPython_命令行.md)（魔法命令速查表）。
+**双重角色**（同一项目、两种入口）：
+
+| 形态 | 是什么 |
+|------|--------|
+| **`ipython` 命令行** | Python 专属 **CLI Shell**（与 bash 同类） |
+| **Jupyter 里的 IPython Kernel** | Notebook/Lab 的 **Python 执行后端**（接 cell、管变量；底层仍 CPython） |
+
+详见 [2.2.1](./02_02_01_运行_IPython_命令行.md)（CLI + 魔法命令）、[2.2.2](./02_02_02_运行_Jupyter_Notebook.md)（Jupyter 关系）。
 
 ---
 
-### 3. 三层关系（最简对比）
+### 3. IPython ≠ IDE（重点分清）
+
+| | **IPython** | **IDE**（PyCharm、VS Code 等） |
+|---|-------------|-------------------------------|
+| 形态 | **纯命令行**交互 | 图形界面：编辑器 + 运行 + 调试 + 文件树 |
+| 主打 | 逐行试代码、魔法命令、快速实验 | 项目管理、断点调试、重构、插件生态 |
+| 是否 IDE | ❌ **不算 IDE** | ✅ 集成开发环境 |
+| 关系 | IDE **内置终端**里常可启动 IPython/Jupyter | 内部也可调用 IPython 作为其中一个面板 |
+
+> **Jupyter Notebook** 介于两者之间：有浏览器 UI 和 cell 编辑，但本质仍是 **IPython 内核 + 交互式实验**，不是完整 IDE。
+
+---
+
+### 4. 三层关系（最简对比）
 
 ```
 ┌─────────────────────────────────────────┐
-│  Jupyter Notebook / Lab  （notebook UI）   │
+│  Jupyter Notebook / Lab  （Web 前端）     │
 ├─────────────────────────────────────────┤
-│  IPython                  （豪华操作台）  │
+│  IPython Kernel           （会话执行层）  │  ← 也可单独 CLI：`ipython`
 ├─────────────────────────────────────────┤
-│  CPython                  （发动机）      │
+│  CPython                  （语言解释器）  │
 └─────────────────────────────────────────┘
+     IDE（VS Code 等）可嵌入 IPython 终端 ↑
 ```
 
-| 组件 | 比喻 | 是否执行字节码 |
-|------|------|----------------|
-| **CPython** | 发动机 | ✅ 真正跑代码 |
-| **原生 Python 终端**（`python` → `>>>`） | 简陋操作台 | 同上，只是 UI 弱 |
-| **IPython** | 豪华操作台 | 同上，UI 强，底层仍是 CPython |
+| 组件 | 比喻 | 类型 |
+|------|------|------|
+| **CPython** | 发动机 | 解释器（执行字节码） |
+| **IPython（CLI）** | 高配 Shell | 命令行交互入口 |
+| **IPython（Kernel）** | 会话后端 | Jupyter 调用的 Python 内核 |
+| **Jupyter Notebook/Lab** | 网页操作台 | 前端 UI + 内核调度 |
+| **IDE** | 整站服务区 | 编辑 + 调试 + 可内嵌 Shell |
 
 ---
 
-### 4. 一句话总结
+### 5. 一句话总结
 
-> 运行 Python 代码 **本质都靠 CPython**；IPython 只是让「交互式敲代码」更好用，**不替换**底层解释器。
+> **IPython** = Python 专属高配 Shell（CLI）**或** Jupyter 的 Python 内核；**不是 IDE**。底层字节码仍由 **CPython** 执行。
 
 ---
 
 ## 二、速查对比表
 
-| | CPython | IPython |
-|---|---------|---------|
-| 层级 | 语言 **实现 / 运行时** | **交互 Shell**（跑在 CPython 之上） |
-| 启动 | `python` | `ipython` |
-| 提示符 | `>>>` | `In [N]:` / `Out [N]:` |
-| 跑脚本 | `python file.py` | `%run file.py`（同进程）或 `python file.py` |
-| 生产环境 | ✅ 常用 | ❌ 一般不用于部署 |
-| 数据分析探索 | 可用但体验弱 | ✅ 默认选择 |
+| | CPython | IPython | IDE |
+|---|---------|---------|-----|
+| 层级 | 解释器 / 运行时 | **CLI Shell** | 集成环境（含编辑器） |
+| 启动 | `python` | `ipython` | 打开 PyCharm / VS Code |
+| 提示符 | `>>>` | `In [N]:` | 图形界面 + 可选终端 |
+| 跑脚本 | `python file.py` | `%run file.py` | Run / Debug 按钮 |
+| 断点调试 | ❌ | ❌（Shell 无调试面板） | ✅ |
+| 是否 IDE | — | ❌ | ✅ |
 
 ---
 
 ## 三、【量化专属改造】
 
-1. **回测上线**：策略定稿用 **`python backtest.py`**（CPython 子进程/调度），探索阶段用 **Jupyter + IPython**。
-2. **版本即 CPython 版本**：`python --version` 与 conda 环境里 `python=3.11` 指的都是 **CPython 3.11**；`ipython` 只是入口不同。
-3. **勿混淆**：说「装 IPython」不会换掉解释器；NumPy/pandas 的 wheel 仍绑定 **CPython ABI**。
-4. **PyPy**：少数场景更快，但量化栈（pandas/statsmodels）仍以 **CPython** 为准，除非明确测过兼容性。
+1. **回测上线**：策略定稿用 **`python backtest.py`**（CPython），探索阶段用 **IPython / Jupyter Shell**。
+2. **VS Code 终端**：Integrated Terminal 里 `ipython` = 嵌入式 Shell，不是换了解释器。
+3. **版本即 CPython 版本**：`python --version` 与 conda 里 `python=3.11` 指 **CPython 3.11**。
+4. **勿混淆**：装 IPython 不换引擎；NumPy/pandas wheel 绑定 **CPython ABI**。
+5. **PyPy**：量化栈仍以 **CPython** 为准。
 
 ---
 
@@ -107,10 +136,10 @@ python my_strategy.py     # 脚本由 CPython 执行
 
 ## 五、自检
 
-- [ ] 能区分 CPython（解释器）与 IPython（交互 Shell）  
-- [ ] 能解释 Jupyter 内核与 CPython 的关系  
-- [ ] 知道生产跑脚本用 `python`，探索用 `ipython`/Jupyter  
-- [ ] 能说出 PyPy 与 CPython 不是同一层概念  
+- [ ] 能区分 CPython（解释器）、IPython（CLI Shell）、IDE 三者的层级  
+- [ ] 能解释 IPython 与 bash 同属 CLI，但与 PyCharm/VS Code 不同  
+- [ ] 知道 Jupyter 内核是 IPython，底层仍是 CPython  
+- [ ] 知道生产跑脚本用 `python`，实验用 `ipython`/Jupyter  
 
 ---
 
