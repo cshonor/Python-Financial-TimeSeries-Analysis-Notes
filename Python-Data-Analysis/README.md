@@ -19,7 +19,7 @@
 | [`code/numpy/`](./code/numpy/) | NumPy 专题 |
 | [`code/matplotlib/`](./code/matplotlib/) | Matplotlib 专题 |
 | [`code/scipy/`](./code/scipy/) | SciPy 导读 |
-| [`code/statsmodels/`](./code/statsmodels/) | statsmodels 导读 |
+| [`code/statsmodels/`](./code/statsmodels/) | statsmodels 专题（含 **vs sklearn 量化分工**） |
 
 ## 章节索引
 

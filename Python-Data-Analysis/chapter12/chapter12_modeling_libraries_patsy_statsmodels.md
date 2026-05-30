@@ -1,12 +1,11 @@
 # 第 12 章 Python 建模库介绍
 
 > 对应教材：《利用 Python 进行数据分析》（原书第 3 版）第 12 章。  
-> 在加载、清洗、规整、可视化之后，本章完成从**数据处理**到**数据建模**的跨越，重点介绍 **Patsy**（公式 → 设计矩阵）与 **statsmodels**（频率论统计推断、时间序列）。  
-> *注：你提供的资料片段未完整覆盖 12.1 与 scikit-learn 部分；本笔记以 Patsy + statsmodels 为核心，并预留 scikit-learn 扩展位。*
+> 在加载、清洗、规整、可视化之后，本章完成从**数据处理**到**数据建模**的跨越，重点介绍 **Patsy**（公式 → 设计矩阵）与 **statsmodels**（频率论统计推断、时间序列），并衔接 **scikit-learn**（预测建模）。
 
 **前置**：[第 11 章 时间序列](../chapter11/chapter11_time_series.md) → 本章 → [第 13 章 数据分析案例](../chapter13/chapter13_data_analysis_case_studies.md)。
 
-**本仓库专题**：[`./code/statsmodels/`](./code/statsmodels/)（待扩充示例）
+**本仓库专题**：[`../code/statsmodels/`](../code/statsmodels/)（含 [statsmodels vs sklearn 量化分工](../code/statsmodels/statsmodels_vs_sklearn_quant.md)）
 
 **演示脚本**：[`./code/chapter12_statsmodels_demo.py`](./code/chapter12_statsmodels_demo.py)
 
@@ -18,9 +17,9 @@
 
 | 一级 | 二级 / 模块 |
 |------|-------------|
+| 12.1 statsmodels 与 scikit-learn | 量化分工与组合流程（专题见 code/statsmodels/） |
 | 12.2 Patsy 模型描述 | 12.2.1 数据转换；12.2.2 分类数据 |
 | 12.3 statsmodels | OLS 拟合；12.3.2 时间序列（AutoReg 等） |
-| （资料未全）12.1 / scikit-learn | 留白 |
 
 ---
 
@@ -30,6 +29,7 @@
 
 | 文件 | 说明 |
 |------|------|
+| [12_01_statsmodels与_scikit_learn_量化分工](./sections/12_01_statsmodels与_scikit_learn_量化分工.md) | statsmodels vs sklearn 核心区别与量化流程（链至专题） |
 | [12_02_用_Patsy_创建模型描述](./sections/12_02_用_Patsy_创建模型描述.md) | 用 Patsy 创建模型描述 |
 | [12_02_01_用_Patsy_公式进行数据转换](./sections/12_02_01_用_Patsy_公式进行数据转换.md) | 01 用 Patsy 公式进行数据转换 |
 | [12_02_02_分类数据和_Patsy](./sections/12_02_02_分类数据和_Patsy.md) | 02 分类数据和 Patsy |
@@ -79,7 +79,7 @@
 | 可视化 | 第 9 章 | 残差图、`summary` 对照 |
 
 - Patsy 与 pandas **`get_dummies`** 功能重叠：公式接口更贴近 R/Stata；手写矩阵更透明。
-- **scikit-learn**（原书同章预告）：侧重预测与交叉验证；statsmodels 侧重**推断与诊断**，量化研究常两者并用。
+- **scikit-learn**：侧重预测与交叉验证；statsmodels 侧重**推断与诊断**。量化推荐 **先 statsmodels 筛因子，再 sklearn 滚动预测** — 详见 [`../code/statsmodels/statsmodels_vs_sklearn_quant.md`](../code/statsmodels/statsmodels_vs_sklearn_quant.md)。
 
 ---
 
@@ -90,11 +90,10 @@
 - [ ] 会用 `C()` 与交互项 `a:b`  
 - [ ] 会用 `smf.ols(...).fit().summary()`  
 - [ ] 了解 `AutoReg` 基本用法  
+- [ ] 能区分 statsmodels 与 sklearn 在量化中的分工（见 12.1 专题）
 
 ---
 
 ## 后续扩展留白
 
-### 12.1 / scikit-learn
-
-（留白：待补原书 scikit-learn 小节纪要）
+（Patsy 高级公式、sklearn Pipeline 与滚动回测框架对接等）
