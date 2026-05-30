@@ -48,9 +48,10 @@
 |------|------|
 | [04_01_ndarray](./sections/04_01_ndarray.md) | ndarray（4.1.1～4.1.7 + 视图/副本速查） |
 | [04_02_伪随机数](./sections/04_02_伪随机数.md) | 伪随机数（**default_rng** + 新旧 API 对照） |
-| [04_03_ufunc](./sections/04_03_ufunc.md) | ufunc |
+| [04_03_ufunc](./sections/04_03_ufunc.md) | ufunc（一元/二元 + **`out=`**） |
 | [04_04_面向数组编程](./sections/04_04_面向数组编程.md) | 面向数组编程（4.4.1～4.4.5 + 易错点速查） |
 | [04_05_文件_I_O](./sections/04_05_文件_I_O.md) | 文件 I/O（**npy/npz** + vs read_csv） |
+| [**4.3～4.5 合并速查**](./sections/chapter04_核心速查_4_3_4_4_4_5.md) | 整章复习一页表 |
 | [04_06_线性代数](./sections/04_06_线性代数.md) | 线性代数 |
 | [04_07_随机漫步](./sections/04_07_随机漫步.md) | 随机漫步 |
 | [04_08_总结](./sections/04_08_总结.md) | 总结 |
@@ -60,6 +61,7 @@
 | 主题 | API |
 |------|-----|
 | 创建 | `np.array`, `np.zeros`, `np.arange` |
+| ufunc | `np.sqrt`, `np.exp`, `np.add`, `ufunc(..., out=buf)` |
 | 类型 | `arr.dtype`, `arr.astype(np.float64)` |
 | 视图 vs 副本 | 切片→视图；布尔/花式→副本 |
 | 条件 | `np.where`, `(a > 0) & (b < 1)` |
@@ -124,6 +126,10 @@
 ### 4.5 文件 I/O
 
 已整理：[04_05_文件_I_O](./sections/04_05_文件_I_O.md)（save/load/savez 速查 + NumPy vs pandas）
+
+### 4.3 ufunc
+
+已整理：[04_03_ufunc](./sections/04_03_ufunc.md)（一元/二元 + **`out=`**）；**4.3～4.5 合并速查** → [chapter04_核心速查_4_3_4_4_4_5.md](./sections/chapter04_核心速查_4_3_4_4_4_5.md)
 
 ### 4.3、4.6～4.7
 
