@@ -2,7 +2,7 @@
 第 1 章配套：环境检查 + 显示选项 + 标准导入惯例（对应原书 1.6.1、1.6.3）
 
 运行：
-  python Python-Data-Analysis/code/chapter01_environment_setup.py
+  python Python-Data-Analysis/chapter01/code/chapter01_environment_setup.py
 """
 
 from __future__ import annotations
