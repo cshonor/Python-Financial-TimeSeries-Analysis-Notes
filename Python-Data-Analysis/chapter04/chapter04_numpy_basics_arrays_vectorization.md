@@ -46,7 +46,7 @@
 
 | 文件 | 说明 |
 |------|------|
-| [04_01_ndarray](./sections/04_01_ndarray.md) | ndarray |
+| [04_01_ndarray](./sections/04_01_ndarray.md) | ndarray（4.1.1～4.1.7 + 视图/副本速查） |
 | [04_02_伪随机数](./sections/04_02_伪随机数.md) | 伪随机数 |
 | [04_03_ufunc](./sections/04_03_ufunc.md) | ufunc |
 | [04_04_面向数组编程](./sections/04_04_面向数组编程.md) | 面向数组编程 |
@@ -111,7 +111,7 @@
 
 ### 4.1 ndarray
 
-（留白）
+已整理：[04_01_ndarray](./sections/04_01_ndarray.md)（4.1.1～4.1.7 完整笔记 + **视图 vs 副本速查**）
 
 ### 4.2～4.7
 
